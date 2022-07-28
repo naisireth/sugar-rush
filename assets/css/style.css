@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAV */
+.nav{
+    background: #141c2a;
+    height: 50px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav__container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-left: 80px;
+    padding: 13px;
+    background: #fff;
+    color: #293241;
+}
+
+.nav__item{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 18px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+}
+
+.nav__item:hover{
+    color: #acc0e3;
+}
+
+#fondo{
+    background: rgba(0, 0, 0, 0.5) url(../images/header2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: -20;
+    width: 100%;
+    height: 100%;
+}
+
+.header__title{
+    padding-left: 150px;
+    padding-top: 200px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.8) 0.1em 0.1em 0.2em;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+}
+
+.copy{
+    padding-left: 148px;
+    padding-right: 300px;
+    padding-top: 10px;
+    font-size: 52px;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.8) 0.1em 0.1em 0.2em;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    line-height: 70px;
+}
+
+/* QUIENES SOMOS */
+.bg{
+    background: #fff;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: -20;
+    width: 100%;
+    height: 35%;
+}
+
+
+.quienes-somos-card{
+    display: flex;
+    background: rgba(255, 255, 255);
+}
+
+.quienes-somos{
+    padding-left: 150px;
+    padding-top: 70px;
+}
+
+.quienes-somos-title{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+    margin-right: 50px;
+    padding: 15px 25px;
+    background: #263958;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.quienes-somos-copy{
+    font-size: 18px;
+    color: #293241;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    width: 50%;
+}
+
+/* Chef */
+
+.bg-2{
+    background: rgba(0, 0, 0, 0.3) url(../images/background3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: -20;
+    width: 100%;
+    height: 99%;
+}
+
+.chef-title{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+    padding-left: 150px;
+    padding-top: 70px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0.1em 0.1em 0.2em;
+}
+
+.chef-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 50px;
+    width: 280px;
+    height: 395px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+#chef1{
+    background: url(../images/chef2.jpeg) center;
+    background-size: cover;
+
+}
+
+#chef2{
+    background: url(../images/chef1.jpg) center;
+    background-size: cover;
+
+}
+
+#chef3{
+    background: url(../images/chef3.jpg) center;
+    background-size: cover;
+
+}
+
+.chef-copy{
+    color: #141c2a;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 20px;
+    background: #acc0e3d6;
+    border: 1px solid #263958;
+    display: flex;
+    justify-content: center;
+    margin-top: 340px;
+}
+
+/* Cupcakes */
+
+.bg-3{
+    background: #141c2a;
+    width: 100%;
+    height: 80%;
+}
+
+.cupcakes-title{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0.1em 0.1em 0.2em;
+}
+
+.cupcakes-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card-2{
+    margin: 45px 25px;
+    width: 250px;
+    height: 280px;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card-2:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+
+#cupcake1{
+    background: url(../images/cupcake1.webp);
+    background-size: cover;
+
+}
+
+#cupcake2{
+    background: url(../images/cupcake2.jpg) center;
+    background-size: cover;
+
+}
+
+#cupcake3{
+    background: url(../images/cupcake3.jpg) center;
+    background-size: cover;
+
+}
+
+#cupcake4{
+    background: url(../images/cupcake4.jpg) center;
+    background-size: cover;
+
+}
+
+.cupcakes-copy{
+    color: #293241;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 20px;
+    padding-right: 35px;
+    margin-top: 160px;
+    width: 185px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+/* Dulces */
+
+
+#reposteria{
+    background: rgba(0, 0, 0, 0.3) url(../images/reposteria.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: -20;
+    width: 100%;
+    height: 80%;
+}
+
+.dulces-title{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0.1em 0.1em 0.2em;
+}
+
+.dulces-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card-3{
+    margin: 45px 25px;
+    width: 250px;
+    height: 280px;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card-3:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+
+#dulces1{
+    background: url(../images/pie.jpg);
+    background-size: cover;
+
+}
+
+#dulces2{
+    background: url(../images/galletas.jpg) center;
+    background-size: cover;
+
+}
+
+#dulces3{
+    background: url(../images/tiramisu.jpg) center;
+    background-size: cover;
+
+}
+
+#dulces4{
+    background: url(../images/macarrones.jpg) center;
+    background-size: cover;
+
+}
+
+.dulces-copy{
+    color: #293241;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 20px;
+    padding-right: 35px;
+    margin-top: 160px;
+    width: 185px;
+    background: rgba(255, 255, 255, 0.7);;
+}
+
+/* Pasteles */
+
+.pasteles-title{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0.1em 0.1em 0.2em;
+}
+
+.pasteles-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card-4{
+    margin: 45px 25px;
+    width: 250px;
+    height: 280px;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card-4:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+
+#pasteles1{
+    background: url(../images/zanahoria.jpg);
+    background-size: cover;
+
+}
+
+#pasteles2{
+    background: url(../images/pastel-galletas.jpg) center;
+    background-size: cover;
+
+}
+
+#pasteles3{
+    background: url(../images/red-velvet.jpg) center;
+    background-size: cover;
+
+}
+
+#pasteles4{
+    background: url(../images/pastel-chocolate.jpg) center;
+    background-size: cover;
+
+}
+
+.pasteles-copy{
+    color: #293241;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 20px;
+    padding-right: 35px;
+    margin-top: 160px;
+    width: 185px;
+    background: rgba(255, 255, 255, 0.7);;
+}
+
+/* Redes Sociales*/
+
+.title{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+    padding-left: 150px;
+    padding-top: 90px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0.1em 0.1em 0.2em;
+}
+
+#contacto{
+    background: rgba(0, 0, 0, 0.3) url(../images/contacto.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: -20;
+    width: 100%;
+    height: 400px;
+}
+
+.text__copy{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1.9px;
+    padding-left: 150px;
+    padding-top: 15px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0.1em 0.1em 0.2em;
+}
+
+.text__social{
+    display: flex;
+    justify-content: start;
+    margin-left: 120px;
+}
+
+.text__icon{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    margin: 20px;
+}
+
+.text__link{
+    background: #293241d5;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 40px 30px;
+}
+
+/* Footer */
+
+.footer{
+    background: #141c2a;
+    border-top: .5px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer__text{
+    color: #fff;
+    font-size: 18px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* scroll */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.top{
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+
+}
+
+.button-img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background: #293241e5;
+    border-radius: 50%;
+    border: .5px solid rgba(255, 255, 255, 0.2);
+}
